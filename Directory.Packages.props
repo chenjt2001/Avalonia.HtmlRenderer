@@ -1,8 +1,8 @@
 <Project>
 
   <PropertyGroup>
-    <AvaloniaVersion>12.0.0</AvaloniaVersion> <!-- Used in Avalonia.HtmlRenderer.csproj with VersionOverride -->
-    <AvaloniaSamplesVersion>12.0.0</AvaloniaSamplesVersion>
+    <AvaloniaVersion>12.1.2</AvaloniaVersion> <!-- Used in Avalonia.HtmlRenderer.csproj with VersionOverride -->
+    <AvaloniaSamplesVersion>12.1.2</AvaloniaSamplesVersion>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
 

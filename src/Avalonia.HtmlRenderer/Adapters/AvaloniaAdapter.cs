@@ -200,7 +200,7 @@ namespace TheArtOfDev.HtmlRenderer.Avalonia.Adapters
             var stream = await file.OpenWriteAsync();
 #endif
             
-            ((ImageAdapter)image).Image.Save(stream);
+            ((ImageAdapter)image).Image.Save(stream, new PngBitmapEncoderOptions());
 
             await stream.FlushAsync();
         }
